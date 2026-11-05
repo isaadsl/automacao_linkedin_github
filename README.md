@@ -23,7 +23,7 @@ Você pode corrigir as entradas ambíguas na planilha e validar novamente. Nenhu
 .\.venv\Scripts\python.exe conectar_perfis.py minha_tabela.xlsx
 ```
 
-Usa lotes de até 50 pessoas; uma pessoa pode gerar duas ações, uma em cada plataforma. Entre perfis, espera um intervalo aleatório de 30 a 90 segundos. Os cliques de abertura e confirmação de um mesmo convite são uma única ação. Ao terminar cada lote, pede que você escolha se quer continuar. Para parar a qualquer momento, use Ctrl+C.
+Usa lotes de até 50 pessoas; uma pessoa pode gerar duas ações, uma em cada plataforma. Entre perfis, espera um intervalo aleatório de 10 segundos. Os cliques de abertura e confirmação de um mesmo convite são uma única ação. Ao terminar cada lote, pede que você escolha se quer continuar. Para parar a qualquer momento, use Ctrl+C.
 
 As pausas espaçam as ações, mas não garantem evitar detecção ou bloqueios. O código não tenta disfarçar o navegador nem contornar verificações. Ao detectar login, CAPTCHA ou restrição reconhecível, interrompe o processamento. A detecção não cobre todas as mensagens possíveis das plataformas.
 
