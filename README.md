@@ -9,7 +9,7 @@ python -m venv .venv
 ```
 ## Executar
 
-Depois de fazer o login conforme a preparação acima, execute:
+Depois de fazer o login conforme a preparação acima, localize o diretório da pasta aonde está a planilha e execute:
 
 ```powershell
 .\.venv\Scripts\python.exe conectar_perfis.py "C:\Users\Downloads\Design-Profissional_TODOS_LindedIn_GitHub.xlsx" (exemplo)
