@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+
+
+perfil_automacao/
+resultados.json
+revisao_dados.json
+diagnosticos/
+
+!perfis_modelo.csv
+work/
